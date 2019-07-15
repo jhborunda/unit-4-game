@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>UNIT-4-GAME</title>
+
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <style>
+            body {
+              background-image: url("assets/images/bkgrnd2.jpg");
+              background-position: 5% 5%;
+              background-repeat: repeat;
+              background-size: 150px 150px
+            }
+    </style>
+
+</head>
+<body class="bkgrnd">
+<div class="col-lg-8 col-lg-offset-2 text-center">
+  <h1>Crystals Collector!</h1>
+</div>
+<article>
+<h3>You will be given a randon number at the start of the game.</h3>
+<h3>Three are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</h3>
+<h3>You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.</h3>
+<h3>The value of each crystal is hidden from you until you click on it.</h3>
+<h3>Each tiem when the game starts, the game will change the values of each crystal.</h3>
+</article>
+
+<!-- //Randon Number -->
+<div class="randomNumber">
+  <h2>
+    <span id="randomNumber"></span>
+  </h2>
+</div>
+<!-- //Wins/Losses  -->
+<div class="winsLosses">
+    <h2>Wins:
+        <span id= "numberWins"></span>
+        </br>
+        Losses: 
+        <span id= "numberLosses"></span>
+      </h2>
+</div>
+<!-- //Diamonds -->
+<div class="gem">
+  <img id="redGem" class="gems" src="assets/images/red.png" alt="red gem">
+  <img id="goldGem" class="gems" src="assets/images/gold.png" alt="gold gem">
+  <img id="turqGem" class="gems" src="assets/images/turq.png" alt="turq gem">
+  <img id="purpGem" class="gems" src="assets/images/purp.png" alt="purp gem">
+</div>
+<!-- //userScore -->
+<div class="userScore">
+  <h2> Your total score is:
+    <span id="userScore"></span>
+  </h2>
+</div>
+<!-- //JQuery -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<!-- //Script -->
+<script type="text/javascript" src="assets/javascript/game.js"></script>
+</body>
+</html>

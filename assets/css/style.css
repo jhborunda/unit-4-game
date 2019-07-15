@@ -1,0 +1,18 @@
+/* Background */
+/* .bkgrnd{
+    background-image: url("/images/bkgrnd2.jpg");
+    background-position: 5% 5%;
+    background-repeat: repeat;
+} */
+h1 {
+    background-color: black;
+    color: white;
+    font-style: Helvetica;
+}
+.gems{
+    height: 150px;
+    
+}
+/* .gem{
+    background-color: white;
+} */
