@@ -4,14 +4,35 @@
     background-position: 5% 5%;
     background-repeat: repeat;
 } */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
 h1 {
     background-color: black;
     color: white;
-    font-style: Helvetica;
 }
 .gems{
     height: 150px;
     
+}
+h3{
+    background-color: black;
+    color:white;
+    font-style: normal;
+}
+
+.randomNumber{
+    background-color: black;
+    color: white;
+}
+.winsLosses{
+    background-color: black;
+    color: white;
+}
+
+.userScore{
+    background-color: black;
+    color: white;
 }
 /* .gem{
     background-color: white;
